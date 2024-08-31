@@ -65,7 +65,7 @@ can move - folder in folder or folder in file <br>
 copy files <br>
 (syntax- cp filename you have filename to copy)
 
-for folder add -r i.e (recursive)
+for folder add -r i.e (recursive) <br>
 (syntax- cp -r folder you have folder to copy) <br>
 
 <h2>nvm</h2>
