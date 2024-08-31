@@ -1,4 +1,3 @@
-# bash_commands
 <h1>TERMINAL</h1>
 ctrl alt t <br>
 another interface to do things on the machine
