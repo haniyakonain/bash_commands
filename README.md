@@ -1,96 +1,100 @@
-<h1>TERMINAL</h1>
-ctrl alt t <br>
-another interface to do things on the machine
+# 💻 TERMINAL & BASH COMMANDS
 
+A quick reference guide for navigating and working with the terminal, Bash commands, and Node.js.
 
-<h3>BASH COMMANDS</h3>
-<h2>pwd</h2>
-prints working directory <br>
-(path)
+---
 
-<h2>cd </h2>
-change directory <br>
-(navigate)
+## 🚀 Opening the Terminal
 
-<h2>cd ..  </h2>
-one folder back <br>
-(syntax- cd[space]..)
+- **Shortcut**: `Ctrl + Alt + T`  
+Launches the terminal — a command-line interface to interact with your machine.
 
-<h2>cd ../..  </h2>
-2 folders behind <br>
-( example- cd haniya/cordial
-cd ../.. )   
+---
 
-<h2>up arrow key</h2>
-go back in text
+## 🧭 Navigation Commands
 
-<h2>ls</h2>
-list <br>
-(listing all files)
+| Command         | Description                    |
+|-----------------|--------------------------------|
+| `pwd`           | Prints the current working directory |
+| `cd foldername` | Change into a directory |
+| `cd ..`         | Move one folder back |
+| `cd ../..`      | Move two folders back |
+| `cd path/to/dir`| Navigate using full path |
 
-<h2>mkdir</h2>
-creates a folder <br>
-(makes a directory)
+---
 
-<h2>touch </h2>
-create empty file  <br>
-(syntax- touch filename)
+## 📁 File & Directory Management
 
-<h2>cat</h2>
-prints content on file <br>
-(syntax- cat filename)
+| Command | Description |
+|--------|-------------|
+| `ls`               | List files and directories |
+| `mkdir foldername` | Create a directory |
+| `touch filename`   | Create an empty file |
+| `cat filename`     | Display file contents |
+| `/` in path        | Used to navigate into nested folders, e.g. `folder1/folder2` |
 
-<h2>/</h2>
-to go inside a file  <br>
-(example- haniya/cordial)
+---
 
-<h2>vi</h2>
-(syntax- cat filename) <br>
+## 📝 File Editing with `vi`
 
-I to insert <br>
+| Command      | Function |
+|--------------|----------|
+| `vi filename`| Open file in vi editor |
+| `i`          | Insert mode |
+| `Esc :q!`    | Exit without saving |
+| `Esc :wq!`   | Save and exit |
 
-esc :q!
-exit without saving <br>
+---
 
-esc :wq!
-exit with saving <br>
+## 🛠 File Operations
 
-<h2>mv</h2>
-moves files <br>
-(syntax- mv filename and where to move) extra info if written in inverse the folder name will change <br>
-can move - folder in folder or folder in file <br>
+| Command                      | Description |
+|------------------------------|-------------|
+| `mv source destination`      | Move or rename a file/folder |
+| `cp source destination`      | Copy a file |
+| `cp -r source destination`   | Copy a folder recursively |
 
-<h2>cp</h2>
-copy files <br>
-(syntax- cp filename you have filename to copy)
+---
 
-for folder add -r i.e (recursive) <br>
-(syntax- cp -r folder you have folder to copy) <br>
+## 🔁 Command Shortcuts
 
-<h2>nvm</h2>
-node version manager <br>
+| Shortcut       | Description |
+|----------------|-------------|
+| ↑ (up arrow)   | Browse previous commands |
+| `clear`        | Clears the terminal |
+| `Ctrl + C`     | Stop process / Exit current command |
 
-<h2>node</h2>
-to run node code locally <br>
+---
 
-<h2>shell</h2>
-test node js code locally <br>
+## 🟢 Node.js & NPM
 
-<h2>ctrl c</h2>
-type 2 times to exit <br>
+| Command                      | Description |
+|------------------------------|-------------|
+| `nvm`                        | Node Version Manager |
+| `node`                       | Start Node.js REPL shell |
+| `node filename.js`           | Run a Node.js script |
+| `npm install package-name`   | Install a package (e.g., `npm install express`) |
 
-<h2>clear</h2>
-to clear terminal <br>
+---
 
-<h2>node a.js</h2>
-to run locally <br>
-(syntax- node filename)
+## ✅ Example Workflow
 
-<h2>npm</h2>
-has many libraries in it <br>
-node package manager <br>
-(syntax- npm install (name of dependency) <br>
-example- npm install express) <br>
+```bash
+mkdir myproject
+cd myproject
+touch index.js
+vi index.js
+node index.js
+````
+
+---
+
+## 📘 Notes
+
+* Use `cat`, `vi`, or `node` to interact with files depending on your needs.
+* Always double-check file paths when using `mv` or `cp` to avoid accidental data loss.
+
+---
 
 
 
